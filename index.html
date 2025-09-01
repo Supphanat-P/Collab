@@ -8,6 +8,32 @@
   <style>
     body {
       font-family: cursive;
+      display: grid;
+      justify-content: center;
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+      
+    }
+    .card {
+      text-align: center;
+      margin: 1.75rem;
+      padding: 1.5rem;
+      background-color: black;
+      color: aliceblue;
+      border-radius: 35px;
+    }
+    h1 {
+      padding: 4rem;
+      text-align: center;
+    }
+    .allCard{
+      display: flex;
+      padding: 0.25rem;
+      justify-content: space-evenly;
+    }
+    img {
+      border-radius: 10px;
     }
   </style>
   <body>
@@ -15,30 +41,53 @@
     <!-- Our project used to pressent members within this project -->
 
     <!-- P 67162090 Information here -->
-    <img src="p.png" alt="" height="200px" />
-    <p>67162090 Supphanat Deawwanich (Supphanat-P)</p>
-    <p>เอาละ จงนับความผิดของแกไว้ซะ!</p>
-    <!-- Pond 67178272 Information here -->
-    <img src="pigwipa.png" alt="67178272" height="200px" />
-    <p>67178272 ชินภัทร ทรัพย์สมบัติ (Chinnaphat-ppsadzy)</p>
-    <p>ต่อจากนี้แกคือเหยื่อของชั้น</p>
-    <!-- Map 67160778 Information here -->
-    <img src="./Tung-Tung-Tung-Sahur-PNG-Photos.png" alt="" height="200px" />
-    <p>67160778 Theeradon Supasirasatkul (Theeradon-map)</p>
-    <p>ดาเมยองกึ ออมเก ออมกึ ออมเกออมเก</p>
+    <div class="allCard">
+      <div class="card">
+        <img src="p.png" alt="" height="200px" />
+        <p>67162090 Supphanat Deawwanich </p>
+        <p>(Supphanat-P)</p>
+        <p>เอาละ จงนับความผิดของแกไว้ซะ!</p>
+      </div>
 
-    <!-- Joe 67162090 Information here -->
-    <img
-      src="artworks-DW1YYdgHCvkmy0Hb-z69Rhw-t500x500.jpg"
-      alt="67158250"
-      height="200px"
-    />
-    <p>67158250 ณวรุตม์ อินมีศรี (Nawarut-Joe)</p>
-    <p>นัวเนีย เนปาล</p>
+      <div class="card">
+        <!-- Pond 67178272 Information here -->
+        <img src="pigwipa.png" alt="67178272" height="200px" />
+        <p>67178272 Chinnaphat Supsom</p>
+        <p>(Chinnaphat-ppsadzy)</p>
+        <p>ในบรรดาประชากรกว่าแปดพันล้านคนบนโลก ฉันคือที่หนึ่ง</p>
+      </div>
 
-    <!-- Zainee 67162090 Information here -->
-    <img src="./Yoga Vinyasa.jpg" alt="67116507" height="200px" />
-    <p>67116507 Naphat Navahasdinkull (z9thegoat)</p>
-    <p>คติประจำใจ เเค่มีประสบการณ์เเละความอดทนก็สามารถทำได้ทุกอย่าง</p>
+      <div class="card">
+        <!-- Map 67160778 Information here -->
+        <img
+          src="./asd.jpg"
+          alt=""
+          height="200px"
+        />
+        <p>67160778 Theeradon Supasirasatkul</p>
+        <p>(Theeradon-map)</p>
+        <p>พรสวรรค์ของฉัน คือการไม่ยอมแพ้ยังไงล่ะ</p>
+      </div>
+
+      <div class="card">
+        <!-- Joe 67162090 Information here -->
+        <img
+          src="artworks-DW1YYdgHCvkmy0Hb-z69Rhw-t500x500.jpg"
+          alt="67158250"
+          height="200px"
+        />
+        <p>67158250 Nawarut Inmeesri</p>
+        <p>(Nawarut-Joe)</p>
+        <p>นัวเนีย เนปาล</p>
+      </div>
+
+      <div class="card">
+        <!-- Zainee 67162090 Information here -->
+        <img src="./Yoga Vinyasa.jpg" alt="67116507" height="200px" />
+        <p>67116507 Naphat Navahasdinkull</p>
+        <p>(z9thegoat)</p>
+        <p>ไม่ต้องทำวันนี้ให้ดีที่สุด เดี๋ยวพรุ่งนี้ไม่มีไรให้ทำ</p>
+      </div>
+    </div>
   </body>
 </html>
